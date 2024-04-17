@@ -1,6 +1,7 @@
 name: R2 Upload Action
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - "*"
